@@ -8,7 +8,6 @@ def sort_array_asc(array)
     # else a == b
     #   0 
   end
-end
 
 def sort_array_desc(array)
     array.sort do |a, b|
