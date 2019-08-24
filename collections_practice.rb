@@ -38,6 +38,17 @@ def sum_array(array)
   end
   sum
 end
+# using reduce method
+    # array.reduce(:+)
+
+  # using inject method (short)
+     # array.inject(:+)
+
+  # using inject method (long)
+     # array.inject do |sum,x|
+     #  sum + x
+     # end
+end
 
 def add_s(array)
         array.collect do |word|
