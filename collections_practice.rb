@@ -20,6 +20,10 @@ def sort_array_char_count(array)
   array.sort do |a, b|
     a.length<=>b.length
   end
+  
+def swap_element(array)
+  array[a], array[b] = array[b], array[a]
+  array
 end
 
 def swap_element(array)
